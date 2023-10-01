@@ -1,7 +1,8 @@
-import Link from "next/link"
+import Link from "next/link";
+import CatManagement from "~/features/cats/cat-management";
 
-import { siteConfig } from "@/config/site"
-import { buttonVariants } from "@/components/ui/button"
+import { siteConfig } from "~/config/site";
+import { buttonVariants } from "~/components/ui/button";
 
 export default function IndexPage() {
   return (
@@ -34,6 +35,7 @@ export default function IndexPage() {
           GitHub
         </Link>
       </div>
+      <CatManagement />
     </section>
-  )
+  );
 }
