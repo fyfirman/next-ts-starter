@@ -16,6 +16,11 @@ npx create-next-app -e https://github.com/shadcn/next-template
 - Icons from [Lucide](https://lucide.dev)
 - Dark mode with `next-themes`
 - Tailwind CSS class sorting, merging and linting.
+- Eslint Config Fyfirman
+- Zod
+- Tanstack React Query
+
+
 
 ## License
 
